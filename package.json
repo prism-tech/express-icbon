@@ -7,13 +7,13 @@
   "main": "build/express-icbon.min.js",
   "types": "resource/index.ts",
   "keywords": [],
-  "homepage": "https://github.com/prism-tech/icbon#readme",
+  "homepage": "https://github.com/prism-tech/express-icbon#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prism-tech/icbon.git"
+    "url": "git+https://github.com/prism-tech/express-icbon.git"
   },
   "bugs": {
-    "url": "https://github.com/prism-tech/icbon/issues"
+    "url": "https://github.com/prism-tech/express-icbon/issues"
   },
   "scripts": {
     "build": "webpack"
