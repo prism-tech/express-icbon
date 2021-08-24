@@ -1,7 +1,7 @@
 import { Decoder } from 'icbon';
 import { Request, Response, NextFunction } from 'express';
 
-export async function encoded(request: Request, response: Response, next: NextFunction): Promise<void> {
+export function encoded(request: Request, response: Response, next: NextFunction): void {
   if (request.headers['content-type'] !== 'application/x-icbon-encoded') {
     return next(null);
   }
