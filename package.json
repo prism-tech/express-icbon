@@ -1,6 +1,6 @@
 {
   "name": "express-icbon",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha",
   "description": "Internet Compressed Binary Object Notation",
   "author": "Prismatic Technologies <administrator@prism.md>",
   "license": "GPL",
@@ -16,7 +16,8 @@
     "url": "https://github.com/prism-tech/express-icbon/issues"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "prepublish": "webpack"
   },
   "devDependencies": {
     "ts-loader": "^9.2.5",
@@ -27,6 +28,6 @@
   "dependencies": {
     "@types/express": "^4.17.13",
     "express": "^4.17.1",
-    "icbon": "^0.0.6"
+    "icbon": "^1.0.2-alpha"
   }
 }
